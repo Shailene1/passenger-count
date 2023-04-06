@@ -1,6 +1,6 @@
 body {
     background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm281batch2-nunny-004-g.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=bf15eb61b31502cba86cfc80ddd73ed1");
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -55,8 +55,9 @@ button {
 }
 
 .container{
-    background: white;
+    background:  rgba(255, 255, 255, 0.7);
     max-width: 80%;
+    max-height: 100%;
     margin: auto;
     border: 3px solid black;
     border-radius: 10px;
